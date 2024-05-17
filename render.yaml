@@ -1,0 +1,29 @@
+# Exported from Render on 2024-05-17T02:24:40Z
+services:
+- type: web
+  name: Rename_pro_met
+  runtime: python
+  repo: https://github.com/v15hnuf6n1off/Rename_Bot
+  plan: free
+  envVars:
+  - key: PORT
+    sync: false
+  - key: LOG_CHANNEL
+    sync: false
+  - key: DB_URL
+    sync: false
+  - key: DB_NAME
+    sync: false
+  - key: OBOT_TOKEN
+    sync: false
+  - key: API_ID
+    sync: false
+  - key: API_HASH
+    sync: false
+  - key: ADMIN
+    sync: false
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python bot.py
+  autoDeploy: false
+version: "1"
