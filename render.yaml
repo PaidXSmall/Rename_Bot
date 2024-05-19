@@ -14,7 +14,7 @@ services:
     sync: false
   - key: DB_NAME
     sync: false
-  - key: OBOT_TOKEN
+  - key: BOT_TOKEN
     sync: false
   - key: API_ID
     sync: false
