@@ -75,7 +75,7 @@ broadcast - Send Message To All Users (Admin Only)
 ## Deploy To Render              
 
 <div align="left">
-  <a href="https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Rename_Bo" onclick="toggleVisibility('renderDeploy')">
+  <a href="https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Rename_Bot" onclick="toggleVisibility('renderDeploy')">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
   </a>
 </div>
