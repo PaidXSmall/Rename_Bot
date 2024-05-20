@@ -24,7 +24,7 @@ app = Client("test", api_id=Config.STRING_API_ID,
 @Client.on_callback_query(filters.regex('rename'))
 async def rename(bot, update):
     await update.message.delete()
-    await update.message.reply_text("__𝙿𝚕𝚎𝚊𝚜𝚎 𝙴𝚗𝚝𝚎𝚛 𝙽𝚎𝚠 𝙵𝚒𝚕𝚎𝙽𝚊𝚖𝚎...__",
+    await update.message.reply_text("** 𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖭𝖾𝗐 𝖥𝗂𝗅𝖾𝗇𝖺𝗆𝖾 😀\n 𝖤𝗑𝗍𝖾𝗇𝗌𝗂𝗈𝗇 𝖭𝗈𝗍 𝖱𝖾𝗊𝗎𝗂𝗋𝖾𝖽!!**",
                                     reply_to_message_id=update.message.reply_to_message.id,
                                     reply_markup=ForceReply(True))
 
@@ -62,7 +62,7 @@ async def refunc(client, message):
 
         # Use a single call to reply with both text and inline keyboard
         await message.reply(
-            text=f"**Sᴇʟᴇᴄᴛ Tʜᴇ Oᴜᴛᴩᴜᴛ Fɪʟᴇ Tyᴩᴇ**\n**• Fɪʟᴇ Nᴀᴍᴇ :-**  `{new_name}`",
+            text=f"**┎𝖲𝖾𝗅𝖾𝖼𝗍 𝖳𝗁𝖾 𝖮𝗎𝗍𝗉𝗎𝗍 𝖥𝗈𝗋 𝖳𝗁𝖾 𝖣𝖾𝗌𝗂𝗋𝖾𝖽 𝖥𝗂𝗅𝖾**\n**┗𝖭𝖾𝗐 𝖥𝗂𝗅𝖾𝗇𝖺𝗆𝖾: **  `{new_name}`",
             reply_to_message_id=file.id,
             reply_markup=InlineKeyboardMarkup(button)
         )
